@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Кнопки</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+            font-family: 'Comic Neue', cursive;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #4b0082;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        .button-blue {
+            background: linear-gradient(to right, #1e90ff, #00bfff);
+        }
+
+        .button-black {
+            background: linear-gradient(to right, #000000, #434343);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Ми вивчаємо посилання</h1>
+
+<a href="https://uk.wikipedia.org/" class="button" target="_blank">Україна</a>
+<a href="#" class="button">Історія</a>
+<a href="#" class="button">Географія</a>
+<a href="#" class="button">Конституція</a>
+<a href="#" class="button">Культура</a>
+<a href="https://rivne1.tv/news/70748-top15-tsikavikh-faktiv-pro-ukrainu#google_vignette" class="button" target="_blank">Цікаві факти</a>
+<br><br>
+<a href="https://uk.wikipedia.org/" class="button button-blue" target="_blank">Ukraine</a>
+<a href="https://uk.wikipedia.org/" class="button button-black" target="_blank">Ukraine</a>
+
+</body>
+</html>
